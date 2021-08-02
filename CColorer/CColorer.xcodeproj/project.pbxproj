@@ -7,11 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC2E0A8926B8154F00BB0EBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2E0A8826B8154F00BB0EBB /* AppDelegate.swift */; };
+		BC2E0A8D26B8154F00BB0EBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2E0A8C26B8154F00BB0EBB /* ViewController.swift */; };
+		BC2E0A9226B8155100BB0EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2E0A9126B8155100BB0EBB /* Assets.xcassets */; };
+		BC2E0A9526B8155100BB0EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2E0A9326B8155100BB0EBB /* LaunchScreen.storyboard */; };
+		BC2E0A9B26B815B300BB0EBB /* CColorer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5B1D4B26B7FEB30098BA30 /* CColorer.framework */; };
+		BC2E0A9C26B815B300BB0EBB /* CColorer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BC5B1D4B26B7FEB30098BA30 /* CColorer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BC5B1D5026B7FEB30098BA30 /* CColorer.h in Headers */ = {isa = PBXBuildFile; fileRef = BC5B1D4E26B7FEB30098BA30 /* CColorer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC5B1D5726B7FEC70098BA30 /* CColorerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5B1D5626B7FEC70098BA30 /* CColorerController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BC2E0A9D26B815B300BB0EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC5B1D4226B7FEB30098BA30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5B1D4A26B7FEB30098BA30;
+			remoteInfo = CColorer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC2E0A9F26B815B300BB0EBB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BC2E0A9C26B815B300BB0EBB /* CColorer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		BC2E0A8626B8154F00BB0EBB /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2E0A8826B8154F00BB0EBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC2E0A8C26B8154F00BB0EBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC2E0A9126B8155100BB0EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC2E0A9426B8155100BB0EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC2E0A9626B8155100BB0EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC5B1D4B26B7FEB30098BA30 /* CColorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CColorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5B1D4E26B7FEB30098BA30 /* CColorer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CColorer.h; sourceTree = "<group>"; };
 		BC5B1D4F26B7FEB30098BA30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -19,6 +55,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BC2E0A8326B8154F00BB0EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2E0A9B26B815B300BB0EBB /* CColorer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC5B1D4826B7FEB30098BA30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -29,11 +73,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC2E0A8726B8154F00BB0EBB /* TestProject */ = {
+			isa = PBXGroup;
+			children = (
+				BC2E0A8826B8154F00BB0EBB /* AppDelegate.swift */,
+				BC2E0A8C26B8154F00BB0EBB /* ViewController.swift */,
+				BC2E0A9126B8155100BB0EBB /* Assets.xcassets */,
+				BC2E0A9326B8155100BB0EBB /* LaunchScreen.storyboard */,
+				BC2E0A9626B8155100BB0EBB /* Info.plist */,
+			);
+			path = TestProject;
+			sourceTree = "<group>";
+		};
+		BC2E0A9A26B815B300BB0EBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC5B1D4126B7FEB30098BA30 = {
 			isa = PBXGroup;
 			children = (
 				BC5B1D4D26B7FEB30098BA30 /* CColorer */,
+				BC2E0A8726B8154F00BB0EBB /* TestProject */,
 				BC5B1D4C26B7FEB30098BA30 /* Products */,
+				BC2E0A9A26B815B300BB0EBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -41,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				BC5B1D4B26B7FEB30098BA30 /* CColorer.framework */,
+				BC2E0A8626B8154F00BB0EBB /* TestProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +135,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		BC2E0A8526B8154F00BB0EBB /* TestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2E0A9726B8155100BB0EBB /* Build configuration list for PBXNativeTarget "TestProject" */;
+			buildPhases = (
+				BC2E0A8226B8154F00BB0EBB /* Sources */,
+				BC2E0A8326B8154F00BB0EBB /* Frameworks */,
+				BC2E0A8426B8154F00BB0EBB /* Resources */,
+				BC2E0A9F26B815B300BB0EBB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC2E0A9E26B815B300BB0EBB /* PBXTargetDependency */,
+			);
+			name = TestProject;
+			productName = TestProject;
+			productReference = BC2E0A8626B8154F00BB0EBB /* TestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BC5B1D4A26B7FEB30098BA30 /* CColorer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC5B1D5326B7FEB30098BA30 /* Build configuration list for PBXNativeTarget "CColorer" */;
@@ -93,8 +178,12 @@
 		BC5B1D4226B7FEB30098BA30 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					BC2E0A8526B8154F00BB0EBB = {
+						CreatedOnToolsVersion = 12.5;
+					};
 					BC5B1D4A26B7FEB30098BA30 = {
 						CreatedOnToolsVersion = 12.5;
 						LastSwiftMigration = 1250;
@@ -115,11 +204,21 @@
 			projectRoot = "";
 			targets = (
 				BC5B1D4A26B7FEB30098BA30 /* CColorer */,
+				BC2E0A8526B8154F00BB0EBB /* TestProject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BC2E0A8426B8154F00BB0EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2E0A9526B8155100BB0EBB /* LaunchScreen.storyboard in Resources */,
+				BC2E0A9226B8155100BB0EBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC5B1D4926B7FEB30098BA30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,6 +229,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BC2E0A8226B8154F00BB0EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2E0A8D26B8154F00BB0EBB /* ViewController.swift in Sources */,
+				BC2E0A8926B8154F00BB0EBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC5B1D4726B7FEB30098BA30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -140,7 +248,66 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		BC2E0A9E26B815B300BB0EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC5B1D4A26B7FEB30098BA30 /* CColorer */;
+			targetProxy = BC2E0A9D26B815B300BB0EBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC2E0A9326B8155100BB0EBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC2E0A9426B8155100BB0EBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		BC2E0A9826B8155100BB0EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JDNVBEZLP;
+				INFOPLIST_FILE = TestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmerovdmitry.TestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BC2E0A9926B8155100BB0EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JDNVBEZLP;
+				INFOPLIST_FILE = TestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmerovdmitry.TestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		BC5B1D5126B7FEB30098BA30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -321,6 +488,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BC2E0A9726B8155100BB0EBB /* Build configuration list for PBXNativeTarget "TestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2E0A9826B8155100BB0EBB /* Debug */,
+				BC2E0A9926B8155100BB0EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BC5B1D4526B7FEB30098BA30 /* Build configuration list for PBXProject "CColorer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

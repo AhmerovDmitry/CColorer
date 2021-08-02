@@ -8,11 +8,11 @@
   "tvOS" : [
 
   ],
-  "commitish" : "1.0.0",
+  "commitish" : "3d4abbdbb31ff21fa303ac123f6fc122f1fbc034",
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
-      "hash" : "728e9abdab41fe9246857679e596dc9bb1c35f5f2023c73dfa8bf468315c4f28",
+      "hash" : "ef2e4e211ee2114497a4536dd8abec01b154af8255f596058e3f481a9e90a697",
       "name" : "CColorer",
       "container" : "CColorer.xcframework",
       "identifier" : "ios-arm64"
