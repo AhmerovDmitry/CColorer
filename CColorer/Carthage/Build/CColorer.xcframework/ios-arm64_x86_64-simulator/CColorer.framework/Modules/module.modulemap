@@ -1,0 +1,11 @@
+framework module CColorer {
+  umbrella header "CColorer.h"
+
+  export *
+  module * { export * }
+}
+
+module CColorer.Swift {
+    header "CColorer-Swift.h"
+    requires objc
+}

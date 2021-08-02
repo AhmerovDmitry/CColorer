@@ -1,0 +1,28 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.0.0",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
+      "hash" : "728e9abdab41fe9246857679e596dc9bb1c35f5f2023c73dfa8bf468315c4f28",
+      "name" : "CColorer",
+      "container" : "CColorer.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
+      "hash" : "a6afc407a04f577088bfc196544c73c8c8e7fba04c8699720bfeaecfcfb8ab75",
+      "name" : "CColorer",
+      "container" : "CColorer.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    }
+  ]
+}
