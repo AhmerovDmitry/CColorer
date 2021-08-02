@@ -8,18 +8,18 @@
   "tvOS" : [
 
   ],
-  "commitish" : "3d4abbdbb31ff21fa303ac123f6fc122f1fbc034",
+  "commitish" : "009891c0422990f10bd4430262df8e4547552c49",
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
-      "hash" : "ef2e4e211ee2114497a4536dd8abec01b154af8255f596058e3f481a9e90a697",
+      "hash" : "be5cedebc5aa23cb6fbb801e1499b8e9664ceeb38da962ebf480cfa7c6df21e8",
       "name" : "CColorer",
       "container" : "CColorer.xcframework",
       "identifier" : "ios-arm64"
     },
     {
       "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
-      "hash" : "a6afc407a04f577088bfc196544c73c8c8e7fba04c8699720bfeaecfcfb8ab75",
+      "hash" : "b680b1a3b83e6182ae6890aefd8d1f0b24d6edb14cbefd3ab8d33949d4af536e",
       "name" : "CColorer",
       "container" : "CColorer.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"
